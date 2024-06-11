@@ -1,7 +1,7 @@
-import "/Users/katcheng/github-classroom/2024-IBM-Accelerate-SW-Track/to-do-list-week-1-CrazyyKat/src/pages/Home.css";
-import Todos from "/Users/katcheng/github-classroom/2024-IBM-Accelerate-SW-Track/to-do-list-week-1-CrazyyKat/src/component/todos.js";
+import "src/pages/Home.css";
+import Todos from "src/component/todos.js";
 import React, { Component } from "react";
-import AddTodo from "/Users/katcheng/github-classroom/2024-IBM-Accelerate-SW-Track/to-do-list-week-1-CrazyyKat/src/component/AddTodo.js";
+import AddTodo from "src/component/AddTodo.js";
 
 
 
