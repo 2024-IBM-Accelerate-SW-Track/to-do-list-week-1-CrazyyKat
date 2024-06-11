@@ -1,4 +1,9 @@
+import "/Users/katcheng/github-classroom/2024-IBM-Accelerate-SW-Track/to-do-list-week-1-CrazyyKat/src/pages/Home.css";
+import Todos from "/Users/katcheng/github-classroom/2024-IBM-Accelerate-SW-Track/to-do-list-week-1-CrazyyKat/src/component/todos.js";
 import React, { Component } from "react";
+import AddTodo from "/Users/katcheng/github-classroom/2024-IBM-Accelerate-SW-Track/to-do-list-week-1-CrazyyKat/src/component/AddTodo.js";
+
+
 
 class Home extends Component {
   // A default state of this component with an empty list of todos.
@@ -6,6 +11,9 @@ class Home extends Component {
     super();
     this.state = {
       // create your empty list here call it todos.
+
+    todos: []
+
     };
   }
   // the addTodo function simply creates a new array that includes the user submitted todo item and then
@@ -27,7 +35,9 @@ class Home extends Component {
   render() {
     return (
       <div className="Home">
-        <p> Replace this</p>
+        {/* <p> Replace this</p> */}
+        <Todos todos={this.state.todos} />
+        <AddTodo addTodo={this.addTodo} />
         <h1>Todo's </h1>
       </div>
     );
