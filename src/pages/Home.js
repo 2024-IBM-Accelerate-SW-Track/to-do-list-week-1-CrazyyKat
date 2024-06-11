@@ -1,7 +1,7 @@
-import "src/pages/Home.css";
-import Todos from "src/component/todos.js";
+import "../pages/Home.css";
+import Todos from "../component/todos.js";
 import React, { Component } from "react";
-import AddTodo from "src/component/AddTodo.js";
+import AddTodo from "../component/AddTodo.js";
 
 
 
